@@ -1,0 +1,152 @@
+/**
+ * Import the Nerdfonts icon font.
+ * Ref https://www.nerdfonts.com/cheat-sheet for a cheatsheet of available Nerdfonts icons.
+ */
+ @import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+ i {
+   color: #7e9cd8;
+   margin-right: 7px;
+ }
+ 
+ body {
+   color: #dcd7ba;
+   font-family: "JetBrains Mono";
+   font-size: 20px;
+ }
+ 
+ html,
+ body,
+ #root {
+   height: 100%;
+ }
+ 
+ #root {
+   /* border-bottom: 1px solid rgb(255 255 255 / 5%); */
+   background: rgb(0 0 0 / 100%);
+ }
+ 
+ .app {
+   display: grid;
+   grid-template-columns: 5fr 3fr 5fr;
+   align-items: center;
+   height: 100%;
+   padding: 4px 4px 4px 4px;
+ }
+ 
+ .left,
+ .center,
+ .right {
+   display: flex;
+   align-items: center;
+ }
+ 
+ .center {
+   justify-self: center;
+ }
+ 
+ .date {
+   margin-right: 20px;
+ }
+ 
+ .left {
+   justify-content: space-between;
+ }
+ 
+ .right {
+   justify-content: space-between;
+ }
+ 
+ .glaze-container {
+   display: flex;
+ }
+ .weather-container {
+   margin-right: 20px;
+   display: flex;
+ }
+ 
+ .logo,
+ .binding-mode,
+ /* .tiling-direction, */
+ /* .weather, */
+ .memory,
+ .cpu,
+ .battery {
+   margin-right: 20px;
+ }
+ 
+ .workspaces {
+   display: flex;
+   align-items: center;
+   margin-right: 20px;
+ }
+ 
+ .workspace {
+   background: #1f1f28;
+   margin-right: 4px;
+   padding: 4px 8px;
+   color: #dcd7ba;
+   border: none;
+   border-radius: 2px;
+   cursor: pointer;
+ 
+   &.displayed {
+     background: #1f1f28;
+   }
+ 
+   &.focused,
+   &:hover {
+     background: #1f1f28;
+     border: 1px solid #7e9cd8;
+   }
+ }
+ 
+ .binding-mode,
+ .tiling-direction {
+   background: #1f1f28;
+   color: #7e9cd8;
+   border-radius: 2px;
+   line-height: 1;
+   padding: 4px 8px;
+   border: 0;
+   cursor: pointer;
+ }
+ 
+ .binding-mode {
+   margin-right: 4px;
+ }
+ 
+ .cpu .high-usage {
+   color: #900029;
+ }
+ 
+ .battery .charging-icon {
+   position: absolute;
+   font-size: 11px;
+   left: 7px;
+   top: 2px;
+ }
+ 
+ .info-container {
+   margin-left: 20px;
+   display: flex;
+   align-items: center;
+ }
+ 
+ .media-container {
+   display: flex;
+   align-items: center;
+ }
+ 
+ .media-button {
+   margin-left: 0px;
+ }
+ 
+ .media {
+   /* margin-left: 5px; */
+   /* margin-right: 20px; */
+   font-size: 14px;
+   display: flex;
+   flex-direction: column;
+ }
+ 

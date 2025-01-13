@@ -1,0 +1,50 @@
+[2m2024-08-22T18:55:04.257318Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m unknown anchor at line 76 column 15
+[2m2024-08-22T18:55:10.455490Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m unknown anchor at line 76 column 15
+[2m2024-08-22T18:55:43.871499Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m unknown anchor at line 76 column 15
+[2m2024-08-22T18:56:11.508173Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m unknown anchor at line 76 column 15
+[2m2024-08-22T18:56:26.119550Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m unknown anchor at line 92 column 37
+[2m2024-09-07T19:45:14.645258Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general: missing field `cursor_jump` at line 31 column 3
+[2m2024-09-07T19:45:29.163083Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general: missing field `cursor_jump` at line 33 column 3
+[2m2024-09-07T19:45:34.574255Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general: missing field `cursor_jump` at line 36 column 3
+[2m2024-09-07T20:01:15.208087Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-09-08T10:03:56.086374Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[25]: missing field `commands` at line 209 column 5
+[2m2024-09-08T10:05:43.138183Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[25].commands: unrecognized subcommand
+ at line 209 column 15
+[2m2024-09-08T10:06:44.553163Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m found unknown escape character at line 209 column 44, while parsing a quoted scalar at line 209 column 16
+[2m2024-09-08T10:06:59.049377Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[25].commands: unrecognized subcommand
+ at line 209 column 15
+[2m2024-09-08T10:07:17.579608Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m did not find expected hexadecimal number at line 212 column 26, while parsing a quoted scalar at line 212 column 16
+[2m2024-09-08T10:07:34.536010Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m did not find expected hexadecimal number at line 215 column 32, while parsing a quoted scalar at line 215 column 16
+[2m2024-09-08T10:09:08.970056Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'vscode'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2024-09-08T10:11:00.301453Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m did not find expected hexadecimal number at line 215 column 32, while parsing a quoted scalar at line 215 column 16
+[2m2024-09-08T10:11:09.527316Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[27].commands: one or more required arguments were not provided
+ at line 215 column 15
+[2m2024-09-08T10:11:22.388427Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m did not find expected hexadecimal number at line 215 column 32, while parsing a quoted scalar at line 215 column 16
+[2m2024-10-01T17:46:38.006927Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_effects.focused_window.border: duplicate field `enabled` at line 39 column 7
+[2m2024-12-21T08:28:23.237442Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-12-23T11:52:58.722259Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'Spotify'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2024-12-23T11:53:12.888197Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'Spotify'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2025-01-12T07:17:59.574193Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'westerm'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2025-01-13T18:44:46.535707Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'wezterm-gui'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2025-01-13T18:44:48.820972Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'wezterm-gui'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2025-01-13T18:46:04.137376Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'wezterm-gui'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2025-01-13T18:46:10.117150Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'wezterm-gui'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2025-01-13T19:00:58.540385Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'wezterm-gui'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2025-01-13T19:01:03.112197Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'wezterm-gui'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2025-01-13T19:04:42.086083Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'wezterm-gui'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2025-01-13T19:07:47.461329Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'wezterm'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2025-01-13T19:08:03.456160Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'wezterm'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2025-01-13T19:08:16.352799Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'wezterm-gui'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2025-01-13T19:08:24.861550Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'wezterm-gui'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2025-01-13T19:12:34.033751Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute ''C:\\Program Files\\WezTerm\\wezterm-gui.exe''.\n\nError: Program path is not valid for command ''C:\\Program Files\\WezTerm\\wezterm-gui.exe''."
+[2m2025-01-13T19:13:27.778360Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute ''%ProgramFiles%/WezTerm/wezterm-gui.exe''.\n\nError: Program path is not valid for command ''%ProgramFiles%/WezTerm/wezterm-gui.exe''."
+[2m2025-01-13T19:13:29.480309Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute ''%ProgramFiles%/WezTerm/wezterm-gui.exe''.\n\nError: Program path is not valid for command ''%ProgramFiles%/WezTerm/wezterm-gui.exe''."
+[2m2025-01-13T19:21:37.819475Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-01-13T19:21:43.384351Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-01-13T19:21:44.851944Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-01-13T19:21:45.380765Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-01-13T19:21:45.784958Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-01-13T19:21:47.530423Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-01-13T19:21:48.151246Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-01-13T19:21:48.630274Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-01-13T19:21:49.068111Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
