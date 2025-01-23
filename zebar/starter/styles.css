@@ -83,11 +83,11 @@
  
  .workspace {
    background: #1f1f28;
-   margin-right: 4px;
+   margin-left: 7px;
    padding: 4px 8px;
    color: #dcd7ba;
    border: none;
-   border-radius: 2px;
+   border-radius: 7px;
    cursor: pointer;
  
    &.displayed {
@@ -96,8 +96,8 @@
  
    &.focused,
    &:hover {
-     background: #1f1f28;
-     border: 1px solid #7e9cd8;
+     background: #7e9cd8;
+    color: #000000;
    }
  }
  
