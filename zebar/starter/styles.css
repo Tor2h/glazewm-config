@@ -2,151 +2,169 @@
  * Import the Nerdfonts icon font.
  * Ref https://www.nerdfonts.com/cheat-sheet for a cheatsheet of available Nerdfonts icons.
  */
- @import "https://www.nerdfonts.com/assets/css/webfont.css";
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
 
- i {
-   color: #7e9cd8;
-   margin-right: 7px;
- }
- 
- body {
-   color: #dcd7ba;
-   font-family: "JetBrains Mono";
-   font-size: 20px;
- }
- 
- html,
- body,
- #root {
-   height: 100%;
- }
- 
- #root {
-   /* border-bottom: 1px solid rgb(255 255 255 / 5%); */
-   background: rgb(0 0 0 / 100%);
- }
- 
- .app {
-   display: grid;
-   grid-template-columns: 5fr 3fr 5fr;
-   align-items: center;
-   height: 100%;
-   padding: 4px 4px 4px 4px;
- }
- 
- .left,
- .center,
- .right {
-   display: flex;
-   align-items: center;
- }
- 
- .center {
-   justify-self: center;
- }
- 
- .date {
-   margin-right: 20px;
- }
- 
- .left {
-   justify-content: space-between;
- }
- 
- .right {
-   justify-content: space-between;
- }
- 
- .glaze-container {
-   display: flex;
- }
- .weather-container {
-   margin-right: 20px;
-   display: flex;
- }
- 
- .logo,
- .binding-mode,
- /* .tiling-direction, */
- /* .weather, */
- .memory,
- .cpu,
- .battery {
-   margin-right: 20px;
- }
- 
- .workspaces {
-   display: flex;
-   align-items: center;
-   margin-right: 20px;
- }
- 
- .workspace {
-   background: #1f1f28;
-   margin-left: 7px;
-   padding: 4px 8px;
-   color: #dcd7ba;
-   border: none;
-   border-radius: 7px;
-   cursor: pointer;
- 
-   &.displayed {
-     background: #1f1f28;
-   }
- 
-   &.focused,
-   &:hover {
-     background: #7e9cd8;
+i {
+  color: #7e9cd8;
+  margin-right: 7px;
+}
+
+body {
+  color: #dcd7ba;
+  font-family: "JetBrains Mono";
+  font-size: 20px;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  /* border-bottom: 1px solid rgb(255 255 255 / 5%); */
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 5fr 3fr 5fr;
+  align-items: center;
+  height: 100%;
+}
+
+.left,
+.center,
+.right {
+  background-color: #000000;
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  justify-self: center;
+  border-radius: 0 0 15px 15px;
+  padding-inline: 10px;
+  border: 1px solid rgb(126 156 216 / 100%);
+  border-top: 0;
+}
+
+.time,
+.date {
+  margin-right: 20px;
+}
+
+.date {
+  padding-right: 20px;
+  border-right: 1px solid rgb(126 156 216 / 50%);
+}
+
+.right {
+  justify-self: flex-end;
+  border-radius: 0 0 0 15px;
+  padding: 0px 25px 0 10px;
+  border: 1px solid rgb(126 156 216 / 100%);
+  border-top: 0;
+  border-right: 0;
+}
+
+.left {
+  border-radius: 0 0 15px 0;
+  padding: 0px 10px 0 25px;
+  border: 1px solid rgb(126 156 216 / 100%);
+  border-top: 0;
+  border-left: 0;
+}
+
+.left-container {
+  height: 100%;
+}
+
+.glaze-container {
+  display: flex;
+}
+
+.weather-container {
+  display: flex;
+}
+
+.logo,
+.binding-mode,
+/* .tiling-direction, */
+/* .weather, */
+.memory,
+.cpu,
+.battery {
+  margin-right: 20px;
+}
+
+.workspaces {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  column-gap: 5px;
+}
+
+.workspace {
+  background: #1f1f28;
+  padding: 2px 8px;
+  color: #dcd7ba;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+
+  &.displayed {
+    background: #1f1f28;
+  }
+
+  &.focused,
+  &:hover {
+    background: #7e9cd8;
     color: #000000;
-   }
- }
- 
- .binding-mode,
- .tiling-direction {
-   background: #1f1f28;
-   color: #7e9cd8;
-   border-radius: 2px;
-   line-height: 1;
-   padding: 4px 8px;
-   border: 0;
-   cursor: pointer;
- }
- 
- .binding-mode {
-   margin-right: 4px;
- }
- 
- .cpu .high-usage {
-   color: #900029;
- }
- 
- .battery .charging-icon {
-   position: absolute;
-   font-size: 11px;
-   left: 7px;
-   top: 2px;
- }
- 
- .info-container {
-   margin-left: 20px;
-   display: flex;
-   align-items: center;
- }
- 
- .media-container {
-   display: flex;
-   align-items: center;
- }
- 
- .media-button {
-   margin-left: 0px;
- }
- 
- .media {
-   /* margin-left: 5px; */
-   /* margin-right: 20px; */
-   font-size: 14px;
-   display: flex;
-   flex-direction: column;
- }
- 
+  }
+}
+
+.binding-mode,
+.tiling-direction {
+  background: #1f1f28;
+  color: #7e9cd8;
+  border-radius: 2px;
+  line-height: 1;
+  padding: 4px 8px;
+  border: 0;
+  cursor: pointer;
+}
+
+.binding-mode {}
+
+.cpu .high-usage {
+  color: #900029;
+}
+
+.battery .charging-icon {
+  position: absolute;
+  font-size: 11px;
+  left: 7px;
+  top: 2px;
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+}
+
+.media-container {
+  display: flex;
+  align-items: center;
+}
+
+.media-button {
+  margin-left: 0px;
+}
+
+.artist {
+  /* margin-left: 5px; */
+  /* margin-right: 20px; */
+  margin-right: 20px;
+}
