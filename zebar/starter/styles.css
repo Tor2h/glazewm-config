@@ -46,10 +46,10 @@ body,
 
 .center {
   justify-self: center;
-  border-radius: 0 0 15px 15px;
+  border-radius: 15px 15px 0px 0px;
   padding-inline: 10px;
   border: 1px solid rgb(126 156 216 / 100%);
-  border-top: 0;
+  border-bottom: 0;
   margin-inline: 40px;
 }
 
@@ -65,18 +65,18 @@ body,
 
 .right {
   justify-self: flex-end;
-  border-radius: 0 0 0 15px;
-  padding: 0px 25px 0 10px;
+  border-radius: 15px 0 0 0;
+  padding: 0px 10px 0 10px;
   border: 1px solid rgb(126 156 216 / 100%);
-  border-top: 0;
+  border-bottom: 0;
   border-right: 0;
 }
 
 .left {
-  border-radius: 0 0 15px 0;
-  padding: 0px 10px 0 25px;
+  border-radius: 0 15px 0 0;
+  padding: 0px 10px 0 10px;
   border: 1px solid rgb(126 156 216 / 100%);
-  border-top: 0;
+  border-bottom: 0;
   border-left: 0;
 }
 
@@ -168,7 +168,7 @@ body,
   margin-left: 0px;
 }
 
-.title{
+.title {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
