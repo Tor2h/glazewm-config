@@ -176,5 +176,7 @@ body,
 .artist {
   /* margin-left: 5px; */
   /* margin-right: 20px; */
+  text-overflow: ellipsis;
+  white-space: nowrap;
   margin-right: 20px;
 }
