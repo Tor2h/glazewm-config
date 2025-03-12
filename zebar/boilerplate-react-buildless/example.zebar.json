@@ -4,8 +4,15 @@
   "zOrder": "normal",
   "shownInTaskbar": false,
   "focused": false,
-  "resizable": false,
+  "resizable": true,
   "transparent": false,
+  "caching": {
+    "defaultDuration": 604800,
+    "rules": []
+  },
+  "privileges": {
+    "shellCommands": []
+  },
   "presets": [
     {
       "name": "default",
